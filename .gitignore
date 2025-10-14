@@ -1,0 +1,57 @@
+# -------------------------------------------------------
+# 🐳 General Docker
+# -------------------------------------------------------
+*.log
+*.pid
+*.seed
+*.bak
+*.tmp
+*.swp
+*~
+
+# Docker build artifacts
+*.tar
+*.gz
+*.tgz
+*.zip
+
+# Docker Compose & environment files
+.env
+.env.*
+docker-compose.override.yml
+
+# -------------------------------------------------------
+# 🧱 Node / Python (falls du später APIs baust)
+# -------------------------------------------------------
+node_modules/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# -------------------------------------------------------
+# 🧰 IDE / System files
+# -------------------------------------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# -------------------------------------------------------
+# 🏗️ Build & output directories
+# -------------------------------------------------------
+dist/
+build/
+out/
+target/
+
+# -------------------------------------------------------
+# 🧾 OS + WSL / temporary stuff
+# -------------------------------------------------------
+nohup.out
+*.bak
+*.old
+*.tmp
+*.swp
+/mnt/c/Users/**/Desktop/**/DockerLab/**/.Trash*/ 
+
