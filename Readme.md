@@ -9,6 +9,7 @@ The main goal of this repository is to:
 - Track my learning progress.
 - Experiment with different Dockerfiles and setups.
 - Build a solid foundation in containerization and DevOps.
+- Learn Docker Compose & Docker
 
 ## 📂 Structure
 
